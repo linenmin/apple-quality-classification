@@ -1,36 +1,61 @@
-# Apple Quality Classification Project
+# 🍎 Apple Quality Classification Project
 
-This project focuses on classifying the quality of apples using machine learning techniques. It was completed in 2024 as part of the Machine Learning course at the Group T campus of KU Leuven (KUL), within the ICT program.
+This project focuses on classifying the quality of apples using machine learning techniques.  
+It was completed in 2024 as part of the **Machine Learning** course at the **Group T campus of KU Leuven (KUL)**, under the **ICT program**.
 
-```python
-#LogisticsRegression_Apple.ipynb:
-#This file is an attempt at linear regression in this project. 
-#The linear regression classifier built using the code learned in class has a low final accuracy rate (74.32%).
-```
+---
 
+## 📂 Project Structure
 
-```python
-#main_v1.ipynb:
-#Including data loading, data processing, data analysis and various model training, 
-#we achieved relatively good results during the milestone period.
-```
+The project consists of several Jupyter Notebooks, each serving a specific purpose in the development and evaluation of machine learning models:
 
+### 1. `main_v1.ipynb`
+- **Purpose**: Initial version of the project pipeline.
+- **Includes**: Data loading, preprocessing, exploratory data analysis (EDA), and model training.
+- **Outcome**: Achieved decent performance during the milestone stage.
 
-```python
-#main_v2.ipynb
-#In addition to all the processes of main_v1, there are various visualization processes to generate images required for posters and reports, 
-#integrating and condensing all traditional machine learning methods together, 
-#and generating the final result display diagram together with the results of AQNet.
-```
+### 2. `main_v2.ipynb`
+- **Purpose**: Enhanced version for final presentation.
+- **Includes**:
+  - All functionalities from `main_v1`.
+  - Additional visualization for posters and final report.
+  - Integration of all traditional machine learning models.
+  - Final result comparison with the AQNet deep learning model.
 
+### 3. `LogisticsRegression_Apple.ipynb`
+- **Purpose**: A trial using logistic regression (not linear regression, despite the name).
+- **Remarks**: The accuracy was relatively low (~74.32%), showing limitations of linear models in this context.
 
-```python
-#model_config_structureTest.ipynb
-#AQNet model code with adjustable parameters is used to try out various possibilities of model structure and select the most suitable one.
-```
+### 4. `model_config_structureTest.ipynb`
+- **Purpose**: Testing different versions of the custom-built deep learning model **AQNet**.
+- **Focus**: Structural experimentation by adjusting hyperparameters and layer designs to find the optimal architecture.
 
+### 5. `AUC.ipynb`
+- **Purpose**: Generating AUC (Area Under the Curve) graphs.
+- **Usage**: These plots were used in the final evaluation and reporting of the AQNet performance.
 
-```python
-#AUC.ipynb
-#AUC graph used to generate the final results of AQNet
-```
+---
+
+## 🧠 Key Takeaways
+
+- Traditional ML models were tested and compared.
+- A custom neural network (AQNet) was developed and outperformed simpler methods.
+- Visualizations and performance metrics (like AUC) were used to support the model evaluation.
+- The project showcases the complete ML pipeline from data to deployment-ready visualizations.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Scikit-learn
+- NumPy / Pandas
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+---
+
+## ✨ Authors
+
+This project was developed by a student team as part of coursework in the Machine Learning class at KUL Group T.
+
